@@ -1,0 +1,41 @@
+Source:       securityheaders.com scan of https://www.cynbit.in/
+Report time:  20 Nov 2026 04:43:07 UTC
+Scanner grade: D
+Resolved IP:  216.198.79.65
+
+--- Raw response headers (HTTP/2 200) ---
+access-control-allow-origin: *
+age: 410585
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline
+content-encoding: gzip
+content-type: text/html; charset=utf-8
+date: Fri, 20 Nov 2026 04:43:07 GMT
+etag: W/"744949758d1e488e0ef350773b6bf4de"
+server: Vercel
+strict-transport-security: max-age=63072000
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+x-matched-path: /
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-vercel-cache: HIT
+x-vercel-id: dub1::ngwvq-1795149786672-3a9f95223592
+
+--- Headers reported present ---
+Strict-Transport-Security
+
+--- Headers reported missing ---
+Content-Security-Policy
+X-Frame-Options
+X-Content-Type-Options
+Referrer-Policy
+Permissions-Policy
+
+--- "Upcoming" headers also absent (informational) ---
+Cross-Origin-Embedder-Policy
+Cross-Origin-Opener-Policy
+Cross-Origin-Resource-Policy
+
+--- Scanner notes ---
+access-control-allow-origin: * is flagged as a very lax CORS policy, appropriate only for a public CDN.
+Note: the x-vercel-id edge code (dub1) reflects where the scanner's request was served, not where Cynbit's visitors are served.
